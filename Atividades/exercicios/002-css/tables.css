@@ -1,0 +1,29 @@
+table {
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid blueviolet;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+thead tr:hover {
+    background-color: thistle;
+}
+tbody tr:hover {
+    background-color: violet;
+}
+
+tfoot tr:hover {
+    background-color: aqua;
+}
+tbody tr:nth-child(odd){
+    background-color: yellowgreen;
+}
+
+.centralizado {
+    text-align: center;
+}

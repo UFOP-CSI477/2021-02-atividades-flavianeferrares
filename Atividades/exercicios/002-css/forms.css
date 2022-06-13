@@ -1,0 +1,16 @@
+label {
+    font-weight: bold;
+}
+input {
+    padding: 10px;
+    background-color: cyan;
+}
+input[type="text"]{
+    width: 100%;
+    border: 0.1px solid #179da1;
+    border-radius: 15px;
+}
+form > div {
+    padding: 20px;
+    border: 1px solid orchid;
+}
